@@ -52,7 +52,7 @@ const Services = () => {
         <div className="title">
           <h1>
             {" "}
-            <motion.b whileHover={{color:"orange"}}>For Your </motion.b> Bustiness
+            <motion.b whileHover={{color:"orange"}}>For Your </motion.b> Business
           </h1>
           <button> What We Do?</button>
         </div>
