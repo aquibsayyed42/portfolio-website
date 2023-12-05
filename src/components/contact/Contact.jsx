@@ -89,10 +89,10 @@ const Contact = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
         >
-        <form className="form" name="contact" netlify>
+        <form className="form" name="contact" data-netlify="true">
           <input type="text" required placeholder="Name" name="name" />
           <input type="email" required placeholder="Email" name="email" />
-          <textarea placeholder="Message"></textarea>
+          <textarea type="text" required placeholder="Message" name="message"></textarea>
           <button type="submit">Send</button>
         </form>
         </motion.div>
