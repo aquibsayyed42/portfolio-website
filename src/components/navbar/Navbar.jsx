@@ -8,16 +8,16 @@ const Navbar = () => {
       {/* Sidebar */}
       <Sidebar />
       <div className="wrapper">
-        <motion.span 
+        {/* <motion.span 
         initial={{opacity:0, scale:0.5}}
         animate={{opacity:1, scale:1}}
         transition={{duration:0.5}}
-        >Aquib Dev</motion.span>
+        >Aquib Dev</motion.span> */}
         <div className="social">
-          <a href="https://github.com/aquibdev"><img src="facebook.png" alt="" /></a>
-          <a href="https://github.com/aquibdev"><img src="instagram.png" alt="" /></a>
-          <a href="https://github.com/aquibdev"><img src="youtube.png" alt="" /></a>
-          <a href="https://github.com/aquibdev"><img src="dribbble.png" alt="" /></a>
+          <a href="https://www.crio.do/learn/portfolio/aquibsayyed22/"><img src="crio_crop_logo_green.png" alt="" /></a>
+          <a href="https://github.com/aquibdev"><img src="github-mark-white.png" alt="" /></a>
+          {/* <a href="https://github.com/aquibdev"><img src="youtube.png" alt="" /></a>
+          <a href="https://github.com/aquibdev"><img src="dribbble.png" alt="" /></a> */}
         </div>
       </div>
     </div>

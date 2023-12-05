@@ -5,27 +5,31 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "React Project",
-    img: "https://images.pexels.com/photos/18748154/pexels-photo-18748154/free-photo-of-boat.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "Axis",
+    img: "./axis.png",
+    desc: "Axis is an AI application featuring a chatbot, code generator and an image generator. Developed using Next.js, React.js, Tailwind, Prisma and Open AI. Hosted on Netlify.",
+    url: "https://axis-ai.netlify.app"
   },
   {
     id: 2,
-    title: "Next.js App",
-    img: "https://images.pexels.com/photos/9336181/pexels-photo-9336181.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "Qkart",
+    img: "./qkart.png",
+    desc: "Qkart is an E-commerce platform, developed using React, Express, Node.js, and MongoDB. Hosted on Netlify and Microsoft Azure.",
+    url: "https://qkartstores.netlify.app"
   },
   {
     id: 3,
-    title: "Qkart",
-    img: "https://images.pexels.com/photos/18795067/pexels-photo-18795067/free-photo-of-captivating-views-of-burj-khalifa-a-sky-high-experience.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "Qtrip",
+    img: "./qtrip.png",
+    desc: "QTrip is a travel website, developed using HTML, CSS, and JavaScript. Styled the page with Bootstrap, and leveraged localStorage to retain user preferences on the client-side. Hosted on Netlify and Microsoft Azure.",
+    url: "https://qtrip-42.netlify.app"
   },
   {
     id: 4,
-    title: "Qtrip",
-    img: "https://images.pexels.com/photos/11544788/pexels-photo-11544788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "Xboard",
+    img: "./xboard.png",
+    desc: "Xboard is a newsfeed website that displays news content from Flipboard’s RSS feed using REST API. Developed using HTML, CSS, JavaScript and Bootstrap. Hosted on Netlify.",
+    url: "https://xboardtimes.netlify.app"
   },
 ];
 
@@ -49,7 +53,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <a target="new" href={item.url}><button>Visit</button></a>
           </motion.div>
         </div>
       </div>
