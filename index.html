@@ -7,6 +7,12 @@
     <title>Aquib Sayyad</title>
   </head>
   <body>
+    <form name="contact" netlify netlify-honeypot=" bot-field" hidden>
+      <input type="text" required placeholder="Name" name="name" />
+      <input type="email" required placeholder="Email" name="email" />
+      <textarea type="text" required placeholder="Message" name="message"></textarea>
+      <button type="submit">Send</button>
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

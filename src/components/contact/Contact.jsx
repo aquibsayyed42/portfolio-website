@@ -89,7 +89,8 @@ const Contact = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
         >
-        <form className="form" name="contact" method="POST" data-netlify="true">
+        <form className="form" name="contact" method="POST">
+          <input type="hidden" name="form-name" value="contact" />
           <input type="text" required placeholder="Name" name="name" />
           <input type="email" required placeholder="Email" name="email" />
           <textarea type="text" required placeholder="Message" name="message"></textarea>
