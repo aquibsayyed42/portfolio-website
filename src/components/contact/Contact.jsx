@@ -38,7 +38,7 @@ const Contact = () => {
           <p>(+91) 123 456 7890</p>
         </motion.div> */}
         <motion.div variants={variants} className="item">
-          <h3>Mail</h3>
+          <h3>E-Mail</h3>
           <p>mail@aquibsayyad.com</p>
         </motion.div>
         <motion.div variants={variants} className="item">
