@@ -5,7 +5,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "Axis",
+    title: "Axis (In development)",
     img: "./axis.png",
     desc: "Axis is an AI application featuring a chatbot, code generator and an image generator. Developed using Next.js, React.js, Tailwind, Prisma and Open AI. Hosted on Netlify.",
     url: "https://axis-ai.netlify.app"
