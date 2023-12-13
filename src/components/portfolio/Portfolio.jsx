@@ -14,7 +14,7 @@ const items = [
     id: 2,
     title: "Qkart",
     img: "./qkart.png",
-    desc: "Qkart is an E-commerce platform, developed using React, Express, Node.js, and MongoDB. Hosted on Netlify and Microsoft Azure.",
+    desc: "Qkart is an E-commerce platform, developed using React, Express, Node.js, and MongoDB. Hosted on Netlify and Spaceship.",
     url: "https://qkartstores.netlify.app"
   },
   {

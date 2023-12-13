@@ -55,9 +55,9 @@ const Hero = () => {
           <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt="" />
         </motion.div>
       </div>
-      <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
+      {/* <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
         Writer Content Creator Influencoor 
-      </motion.div>
+      </motion.div> */}
         {/* <div className="imageContainer">
             <img src="hero.png" alt="" />
         </div> */}
